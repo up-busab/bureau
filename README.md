@@ -1,2 +1,2 @@
 # bureau
-simple JEE + hibernate + react templates
+simple JEE + hibernate + vue
