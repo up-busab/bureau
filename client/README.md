@@ -1,6 +1,5 @@
-# March 2018 Update
-
-Since creating this starter kit last year, I've been developing exclusively in VueJS. I am in a position to revamp this starter kit to be more useful, easier to understand, with better conventions. I'm just not sure if anyone cares. If you do, please open an issue to let me know and I'll put in a few hours into it. Otherwise, it sitll works great, so feel free to use it.
+Starter taken from https://github.com/hmexx/vue_typescript_starter_kit
+Keeping this documentation from hmexx because why throw away documentation?
 
 # vuejs_typescript_starter_kit
 
