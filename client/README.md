@@ -1,4 +1,5 @@
 Starter taken from https://github.com/hmexx/vue_typescript_starter_kit
+
 Keeping this documentation from hmexx because why throw away documentation?
 
 # vuejs_typescript_starter_kit
