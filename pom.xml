@@ -37,7 +37,7 @@
           <webResources>
             <resource>
               <!-- pass compiled client assets to server  -->
-              <directory>${session.executionRootDirectory}/client/target</directory>
+              <directory>${session.executionRootDirectory}/client/dist</directory>
             </resource>
           </webResources>
         </configuration>

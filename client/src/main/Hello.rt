@@ -1,3 +1,0 @@
-<div rt-scope="this.getModel() as model">
-    <div className="HelloWorld">Hello {model.who}</div>
-</div>

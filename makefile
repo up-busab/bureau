@@ -7,6 +7,9 @@ default: package
 install: package
 	cp -f bureau.war ${DEPLOY}
 
+uninstall: 
+	rm -rf ${DEPLOY}/bureau*
+
 package: bureau.war
 
 bureau.war:
@@ -17,7 +20,8 @@ clean:
 
 cleaner: clean
 	mvn clean
-	rm -rf /client/target
+	rm -rf ./client/dist
+	rm -rf ./server/target
 
 sterile: cleaner
 	rm -rf ./client/etc ./client/node_modules ./client/node
