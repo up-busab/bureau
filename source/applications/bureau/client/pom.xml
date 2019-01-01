@@ -18,8 +18,8 @@
                 <version>0.0.29</version>
 
                 <configuration>
-                    <nodeVersion>v4.5.0</nodeVersion>
-                    <npmVersion>3.9.0</npmVersion>
+                    <nodeVersion>v11.6.0</nodeVersion>
+                    <npmVersion>6.5.0</npmVersion>
                     <installDirectory>.</installDirectory>
                     <workingDirectory>.</workingDirectory>
                 </configuration>
