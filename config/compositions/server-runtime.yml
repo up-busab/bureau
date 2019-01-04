@@ -1,0 +1,20 @@
+version: "2"
+services:
+
+  db:
+    image: bureau/mariadb
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./volumes/mariadb_data:/var/lib/mysql
+    env_file:
+      - ./sql.env
+
+  web:
+    image: bureau/tomcat
+    ports:
+      - "80:80"
+    volumes:
+      - ./volumes/tomcat:/var/www/html
+      - ./volumes/logs:/var/log
+

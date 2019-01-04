@@ -1,0 +1,3 @@
+#!/bin/bash
+#adjust permissions and users in here if we need to
+exec /docker-entrypoint.sh "$@"

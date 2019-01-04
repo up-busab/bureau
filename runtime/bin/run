@@ -1,0 +1,4 @@
+#!/bin/bash
+HERE="$(cd `dirname $0`; pwd -P)"
+
+docker-compose -p $1 -f $HERE/../$1/server-runtime.yml up
