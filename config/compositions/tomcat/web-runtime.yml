@@ -1,0 +1,12 @@
+version: "2.3"
+services:
+   
+  web:
+    image: bureau/tomcat
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./conf/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+      - ./conf/server.xml:/usr/local/tomcat/conf/server.xml
+      - ../volumes/tomcat/webapps:/usr/local/tomcat/webapps
+

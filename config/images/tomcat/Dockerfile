@@ -7,7 +7,6 @@ ADD bin/*         /usr/local/bin/
 
 ENV DEBUG         false
 
-ENTRYPOINT ["/usr/local/bin/docker-environment"]
-
-CMD ["catalina.sh", "run"]
+# Expose the default tomcat port
+EXPOSE 8080
 
