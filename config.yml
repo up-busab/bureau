@@ -1,0 +1,8 @@
+JSD:
+  M2_TARGET: "volumes/m2"    
+
+  PYTHON:
+    REQS: "jsonschema2db"  
+
+BUILDKIT:
+  PROGRESS: plain

@@ -1,0 +1,3 @@
+[submodule "tools/java_service_drydock"]
+	path = tools/java_service_drydock
+	url = git@github.com:up-busab/java_service_drydock.git

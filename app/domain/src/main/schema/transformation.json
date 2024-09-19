@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft/2020-12/schema#",
+  "$id": "transformation",
+  "type": "object",
+  "extends": {
+    "$ref": "entity.json"
+  },
+  "properties": {
+    "sourceType": {
+        "type": "string"
+    },
+    "resultType": {
+        "type": "string"
+    },
+    "functionKey": {
+        "type": "string"
+    }
+  },
+  "required": ["sourceType","resultType","functionKey"]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+
+   <groupId>com.upbusab.bureau</groupId>
+   <artifactId>domain</artifactId>
+   <version>1.0.0</version>
+   
+   <packaging>jar</packaging>
+
+   <properties>
+     <jar-name>domain</jar-name>
+     <java.version>22</java.version>
+   </properties>
+    
+   <dependencies>
+        <dependency>
+            <groupId>org.jsonschema2pojo</groupId>
+            <artifactId>jsonschema2pojo-core</artifactId>
+            <version>1.2.1</version>
+        </dependency>   
+    </dependencies>
+
+   <build>
+      <plugins>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.13.0</version>
+        </plugin>
+        <plugin>
+            <groupId>org.jsonschema2pojo</groupId>
+            <artifactId>jsonschema2pojo-maven-plugin</artifactId>
+            <version>1.2.1</version>
+            <configuration>
+                <sourceDirectory>src/main/schema</sourceDirectory>
+                <targetPackage>com.upbusab.bureau.domain</targetPackage>
+                <outputDirectory>src/main/java</outputDirectory>
+            </configuration>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>generate</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+      </plugins>
+   </build>
+</project>

@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft/2020-12/schema#",
+  "$id": "entity",  
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "UUID specified by RFC4122",
+      "type": "string",
+      "format": "uuid"
+    }
+  },
+  "required": ["id"]
+}

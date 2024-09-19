@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft/2020-12/schema#",
+  "$id": "type",  
+  "type": "object",
+  "extends": {
+    "$ref": "entity.json"
+  },
+  "properties": {
+    "description": { "type": "string" }
+  },
+  "required": []
+}
