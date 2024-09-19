@@ -1,3 +1,5 @@
+volumes/*
+
 # Compiled class file
 *.class
 
