@@ -2,7 +2,7 @@ JSD:
   M2_TARGET: "volumes/m2"    
 
   PYTHON:
-    REQS: "jsonschema2db"  
+    REQS: "jsonschema2db==1.1.0;networkx==3.2.1"  
 
 BUILDKIT:
   PROGRESS: plain

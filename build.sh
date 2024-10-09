@@ -14,3 +14,5 @@ init $HERE/config.yml
 echo -e "\033[1;91mBuilding domain model\033[0m"
 build_lib_22 $HERE/app/domain domain 
 
+unzip -o $HERE/volumes/m2/repository/com/upbusab/bureau/domain/1.0.0/domain-1.0.0.jar -d $HERE/volumes/domain_jar
+

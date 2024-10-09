@@ -3,14 +3,16 @@
   "$id": "transformation",
   "type": "object",
   "extends": {
-    "$ref": "entity.json"
+    "$ref": "core/entity.json"
   },
   "properties": {
     "sourceType": {
-        "type": "string"
+        "$ref": "core/type.json",
+        "type": "object"
     },
     "resultType": {
-        "type": "string"
+        "$ref": "core/type.json",
+        "type": "object"
     },
     "functionKey": {
         "type": "string"

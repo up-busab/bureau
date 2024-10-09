@@ -1,0 +1,4 @@
+schema:
+  config:
+    version: bureau-0-0-0
+    table_not_required: entity,fake  

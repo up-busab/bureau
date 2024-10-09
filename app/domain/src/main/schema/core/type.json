@@ -6,7 +6,8 @@
     "$ref": "entity.json"
   },
   "properties": {
-    "description": { "type": "string" }
+    "className": { "type": "string" },
+    "tableName": { "type": "string" } 
   },
-  "required": []
+  "required": ["name"]
 }
